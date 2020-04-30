@@ -1,0 +1,32 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    height: 500px;
+    width: 100%;
+    margin: auto;
+    background-color: lightcoral;
+}
+
+.wrapper {
+    height: 100%;
+    width: 90%;
+    float: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.fas {
+    font-size: 40px;
+}
+
+.arrow-prec , .arrow-next {
+    width: 5%;
+    height: 100%;
+    float: left;
+    background-color: green;
+}
