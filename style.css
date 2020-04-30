@@ -8,7 +8,7 @@
     height: 500px;
     width: 100%;
     margin: auto;
-    background-color: lightcoral;
+
 }
 
 .wrapper {
@@ -16,14 +16,15 @@
     width: 90%;
     float: left;
     display: flex;
-    text-align: center;
-    overflow: hidden;
+    justify-content: center;
+    align-items: center;
+
 }
 
 .wrapper img {
     max-height: 100%;
     max-width: 100%;
-    object-fit: cover;
+    object-fit: contain;
     display: none;
 }
 
@@ -33,11 +34,10 @@
     color: cyan;
 }
 
-.arrow-prec , .arrow-next {
+.arrow-prev , .arrow-next {
     width: 5%;
     height: 100%;
     float: left;
-    background-color: green;
     display: flex;
     justify-content: center;
     align-items: center;
