@@ -16,12 +16,21 @@
     width: 90%;
     float: left;
     display: flex;
-    justify-content: center;
-    align-items: center;
+    text-align:center;
+    overflow: hidden;
+}
+
+.wrapper img {
+    max-height: 100%;
+    max-width: 100%;
+    object-fit: cover;
 
 }
+
 .fas {
     font-size: 40px;
+    cursor: pointer;
+    color: cyan;
 }
 
 .arrow-prec , .arrow-next {
@@ -29,4 +38,11 @@
     height: 100%;
     float: left;
     background-color: green;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.active {
+    display: block;
 }
