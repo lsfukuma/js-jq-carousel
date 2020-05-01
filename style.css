@@ -5,14 +5,19 @@
 }
 
 .container {
-    height: 500px;
-    width: 100%;
+    height: 100vh;
+    max-width: 1200px;
     margin: auto;
 
 }
 
+h1 {
+    text-align: center;
+    padding: 20px 0;
+}
+
 .wrapper {
-    height: 100%;
+    height: 70%;
     width: 90%;
     float: left;
     display: flex;
@@ -28,15 +33,19 @@
     display: none;
 }
 
-.fas {
+.fa-chevron-left , .fa-chevron-right {
     font-size: 40px;
     cursor: pointer;
+    color: blue;
+}
+
+.fa-chevron-left:hover , .fa-chevron-right:hover {
     color: cyan;
 }
 
 .arrow-prev , .arrow-next {
     width: 5%;
-    height: 100%;
+    height: 70%;
     float: left;
     display: flex;
     justify-content: center;
@@ -45,4 +54,16 @@
 
 .wrapper img.active {
     display: inline-block;
+}
+
+.circle {
+    text-align: center;
+}
+
+.fa-circle {
+    cursor: pointer;
+}
+
+i.active.fas.fa-circle{
+    color: green;
 }
