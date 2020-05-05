@@ -23,7 +23,8 @@ h1 {
     display: flex;
     justify-content: center;
     align-items: center;
-
+    text-align: center;
+    overflow: hidden;
 }
 
 .wrapper img {
@@ -35,7 +36,6 @@ h1 {
 
 .fa-chevron-left , .fa-chevron-right {
     font-size: 40px;
-    cursor: pointer;
     color: blue;
 }
 
@@ -53,10 +53,10 @@ h1 {
 }
 
 .wrapper img.active {
-    display: inline-block;
+    display: block;
 }
 
-.circle {
+.dots {
     text-align: center;
 }
 
@@ -64,6 +64,6 @@ h1 {
     cursor: pointer;
 }
 
-i.active.fas.fa-circle{
+i.active {
     color: green;
 }
